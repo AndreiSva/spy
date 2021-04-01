@@ -1,5 +1,6 @@
 import os
 import getpass
+import sys
 
 def export(args):
     if len(args) > 0:
@@ -15,4 +16,7 @@ def cd(args):
         except FileNotFoundError:
             print(f"spy: cd: no such directory exists")
 
-components_list = [export, cd]
+def exit(args):
+    sys.exit(0)
+
+components_list = [export, cd, exit]
