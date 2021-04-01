@@ -11,3 +11,4 @@ Spy is a shell that is modern and simple, but most of all spy is *fun*. Almost p
 - history
 - configuration
 - cursor movement
+- pipes and &&
